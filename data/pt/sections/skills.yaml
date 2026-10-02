@@ -1,0 +1,19 @@
+# Esta seção também estava desativada no site anterior.
+section:
+  name: Habilidades
+  id: skills
+  enable: false
+  weight: 2
+  showOnNavbar: true
+
+skills:
+  - name: Angular
+    summary: "30%"
+  - name: R
+    summary: "20%"
+  - name: Estatística
+    summary: "10%"
+  - name: Xadrez
+    summary: "10%"
+  - name: Dungeon Master
+    summary: "100%"

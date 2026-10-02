@@ -1,0 +1,29 @@
+section:
+  name: Formação
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+  - name: Mestrado em Informática Aplicada
+    icon: fa-graduation-cap
+    timeframe: "2020"
+    institution:
+      name: Universidade de Fortaleza
+  - name: MBA em Administração Estratégica
+    icon: fa-graduation-cap
+    timeframe: "2017"
+    institution:
+      name: Universidade Estácio de Sá
+  - name: Bacharelado em Análise de Sistemas
+    icon: fa-graduation-cap
+    timeframe: "2013"
+    institution:
+      name: Universidade Estácio de Sá
+  - name: Técnico em Eletrônica Industrial
+    icon: fa-school
+    timeframe: "2004"
+    institution:
+      name: Instituto Federal do Ceará

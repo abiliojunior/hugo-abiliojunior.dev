@@ -1,0 +1,18 @@
+// Keep the restored portrait circular without stretching its proportions.
+.home .content img {
+  height: 148px;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+@media (max-width: 576px) {
+  .home .content img {
+    width: 140px;
+    height: 140px;
+  }
+
+  // The theme hides timeline markers on mobile; clip their overflowing boxes too.
+  .experiences-section .timeline .vertical-line {
+    overflow: hidden;
+  }
+}

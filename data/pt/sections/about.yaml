@@ -1,0 +1,31 @@
+section:
+  name: Sobre
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Sócio proprietário
+company:
+  name: NOVA Tecnologia
+  url: https://novatecnologia.srv.br
+
+summary: |
+  Abílio Júnior é mestre em Informática Aplicada pela Universidade de Fortaleza (UNIFOR). Sua pesquisa inclui desenvolvimento de software, modelos, definição de arquiteturas e implementação de sistemas para monitoramento e gerenciamento de água utilizando Internet das Coisas. Faz parte do grupo de pesquisa Industrial Informatics, Electronics and Health.
+
+  Atua como sócio proprietário na NOVA Tecnologia, desenvolvendo projetos de automação de recursos hídricos, industrial, predial e de infraestrutura urbana, além de projetos de inovação da empresa.
+
+socialLinks:
+  - name: Email
+    icon: fas fa-envelope
+    url: abiliojunior.mat@gmail.com
+  - name: GitHub
+    icon: fab fa-github
+    url: https://github.com/abiliojunior
+  - name: Twitter
+    icon: fab fa-twitter
+    url: https://twitter.com/abiliojunior
+  - name: Google Scholar
+    icon: fas fa-graduation-cap
+    url: https://scholar.google.co.uk/citations?user=xbqOlxIAAAAJ

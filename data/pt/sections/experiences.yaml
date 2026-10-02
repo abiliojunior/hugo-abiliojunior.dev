@@ -1,0 +1,29 @@
+section:
+  name: Experiência
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: NOVA Tecnologia
+      url: https://novatecnologia.srv.br
+      location: Fortaleza - CE
+      overview: Desenvolvimento de projetos de automação e soluções de software.
+    positions:
+      - designation: Sócio
+        start: Jan 2014
+        responsibilities:
+          - Gerenciamento de projetos.
+          - Desenvolvimento de soluções.
+          - Desenvolvimento de software.
+  - company:
+      name: Infitech
+      location: Fortaleza - CE
+    positions:
+      - designation: Gerente de Projetos
+        start: Jan 2006
+        end: Dez 2013
+        responsibilities:
+          - Gerenciar times de desenvolvimento de projetos de automação e controle.
