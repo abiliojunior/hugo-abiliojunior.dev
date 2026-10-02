@@ -1,0 +1,14 @@
+name: "Abílio Júnior"
+nickname: "Abílio"
+greeting: "Olá, me chamo"
+image: "images/author/abilio.jpg"
+
+contactInfo:
+  email: "abiliojunior.mat@gmail.com"
+  phone: "+55 85 988 159 152"
+  github: abiliojunior
+
+summary:
+  - Mestre em Informática Aplicada
+  - Sócio proprietário da NOVA Tecnologia
+  - Internet das Coisas, automação e arquitetura de software

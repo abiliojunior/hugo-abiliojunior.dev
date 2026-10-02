@@ -1,8 +1,9 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://toha-preview.hugo-themes.com
+baseURL: https://abiliojunior.dev/
 
-locale: bn
-title: "John's Blog"
+locale: pt-BR
+title: "Abílio Júnior"
+contentDir: content/pt
 
 # Use Hugo modules to add theme
 module:
@@ -21,18 +22,13 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    locale: en
-    label: English
-    title: "John's Blog"
+  pt:
+    locale: pt-BR
+    label: Português
+    title: "Abílio Júnior"
     weight: 1
-  bn:
-    locale: bn
-    label: বাংলা
-    title: জনের ব্লগ
-    weight: 2
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: pt
 
 # Allow raw html in markdown file
 markup:
@@ -65,12 +61,12 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: ""
+    inverted: ""
+    favicon: /images/author/abilio.jpg
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/abiliojunior/hugo-abiliojunior.dev
   # Default branch of your Git repo
   gitBranch: main
 
@@ -117,7 +113,7 @@ params:
 
         # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -155,7 +151,7 @@ params:
 
           # Enable Analytics
     analytics:
-      enable: true
+      enable: false
       services:
         # Google Analytics
         google:
@@ -305,4 +301,4 @@ params:
 
       # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

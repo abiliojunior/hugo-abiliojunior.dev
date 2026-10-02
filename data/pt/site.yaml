@@ -1,0 +1,9 @@
+copyright: "© Abílio Júnior."
+description: "Portfólio e blog de Abílio Júnior sobre Internet das Coisas, automação, controle e arquitetura de software."
+customMenus: []
+openGraph:
+  title: "Abílio Júnior"
+  type: website
+  description: "Internet das Coisas, automação e arquitetura de software."
+  image: images/author/abilio.jpg
+  url: https://abiliojunior.dev/

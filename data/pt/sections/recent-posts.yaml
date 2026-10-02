@@ -1,0 +1,6 @@
+section:
+  name: Artigos recentes
+  id: recent-posts
+  enable: true
+  weight: 6
+  showOnNavbar: true

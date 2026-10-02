@@ -4,7 +4,7 @@ name: PR Workflows
 on: [pull_request]
 
 jobs:
-  # Build exampleSite
+  # Build the site
   build:
     runs-on: ubuntu-latest
     steps:
@@ -23,6 +23,8 @@ jobs:
           hugo --minify
 
   lighthouse-check:
+    # These preview checks require the original example site's Netlify setup.
+    if: github.repository == 'hugo-themes/toha-example-site'
     runs-on: ubuntu-latest
     steps:
       - name: Waiting for Netlify Preview
@@ -47,6 +49,7 @@ jobs:
 
   # Check for any broken links
   markdown-link-check:
+    if: github.repository == 'hugo-themes/toha-example-site'
     runs-on: ubuntu-latest
     steps:
       # checkout to latest commit

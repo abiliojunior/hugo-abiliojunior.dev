@@ -1,8 +1,10 @@
-# toha-example-site
+# Abílio Júnior
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhugo-toha%2Fhugo-toha.github.io%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/hugo-toha/hugo-toha.github.io/goto?ref=main) ![Repository Size](https://img.shields.io/github/repo-size/hugo-themes/toha-example-site) ![Contributor](https://img.shields.io/github/contributors/hugo-themes/toha-example-site) ![Last Commit](https://img.shields.io/github/last-commit/hugo-themes/toha-example-site) ![License](https://img.shields.io/github/license/hugo-themes/toha-example-site) ![Open Issues](https://img.shields.io/github/issues/hugo-themes/toha-example-site?color=important) ![Open Pull Requests](https://img.shields.io/github/issues-pr/hugo-themes/toha-example-site?color=yellowgreen) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fhugo-themes.github.io/toha-example-site%2F) [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/b7cb60ab/hugo-themes.github.io/toha-example-site)
+Site pessoal de Abílio Júnior, construído com Hugo e o tema Toha.
 
-An example hugo static site with Toha theme.
+Os dados de perfil, formação, experiências, certificação, foto e artigos foram recuperados do [site anterior](https://github.com/abiliojunior/abiliojuniotdevr) e adaptados à estrutura atual do tema. Os dados pessoais ficam em `data/pt/` e os artigos em `content/pt/`. As habilidades permanecem desativadas, como no site anterior.
+
+O artigo sobre redundância em CLPs foi migrado com seus endereços antigos como redirecionamentos. O texto incompleto “Domingo 03/05/2020” permanece como rascunho.
 
 Attributions:
 

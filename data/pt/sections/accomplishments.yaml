@@ -1,0 +1,13 @@
+section:
+  name: Certificações
+  id: accomplishments
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+accomplishments:
+  - name: Project Management Professional (PMP)
+    timeline: Out 2014
+    organization:
+      name: PMI
+      url: https://www.pmi.org
